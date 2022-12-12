@@ -1,0 +1,20 @@
+site_name: Ylibrary 帮助文档
+theme:
+  name: material
+  custom_dir: overrides
+  language: zh
+  features:
+    - toc.integrate
+  palette:
+    primary: red
+
+extra_javascript:
+  - javascript/extra.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Ylibrary Search 使用教程: search/index.md 
